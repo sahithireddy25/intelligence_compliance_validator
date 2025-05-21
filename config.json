@@ -1,0 +1,21 @@
+{
+  "groq": {
+    "api_key": "your_api_key",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct"
+  },
+  "files": {
+    "invoice": "data/invoice.pdf",
+    "po": "data/po.txt",
+    "grn": "data/grn.jpg",
+    "vendor": "data/vendor_policy.txt"
+  },
+  "rules": [
+    "Match Invoice_INV1001 to PO505 and GRN802 using PO number.",
+    "Ensure each line item on the invoice doesn’t exceed ordered or received quantities.",
+    "Unit prices should match PO values.",
+    "Total invoice amount must be within 2% of PO total.",
+    "Invoice date should be on or after GRN date.",
+    "Vendor must appear in the approved vendor list (from VendorPolicy).",
+    "Generate a compliance report with pass/fail for each rule."
+  ]
+}

@@ -1,0 +1,7 @@
+PO Number: PO505
+Vendor: CoolTech Supplies Ltd.
+Date: 2024-04-20
+Line Items:
+ - Widget A - Qty Ordered: 10 - Unit Price: 100.00
+ - Widget B - Qty Ordered: 5 - Unit Price: 200.00
+Total PO Amount: 2000.00
