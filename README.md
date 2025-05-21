@@ -13,7 +13,7 @@ Windows: Tesseract Installer(https://github.com/UB-Mannheim/tesseract/wiki)
 macOS: brew install tesseract
 Linux (Ubuntu): sudo apt install tesseract-ocr
 
-For the details of the model, please refer to Intelligent_document_compliance_flow.pdf
+For the details of the model, please refer to "Intelligent_document_compliance_flow.pdf"
 
 
 To Run the code Follow the steps:
